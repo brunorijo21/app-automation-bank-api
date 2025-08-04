@@ -42,16 +42,6 @@ npm install jest-html-reporter : Relatório dos testes
 
 
 
-🛠️ Funções Desenvolvidas
-
-🔐 AuthHelper.js – Realiza login dinâmico
-
-👤 CriarUsuario.js – Cadastra usuário de forma dinâmica
-
-🧾 geraCpf.js – Gera CPF válido automaticamente
-
-📧 gerarEmail.js – Gera e-mail dinâmico para testes
-
 ## 📁 Arquivos Importantes
 
 jest.config.js
