@@ -23,20 +23,22 @@ npm install jest-html-reporter : Relatório dos testes
 
 
 📁 Estrutura
-project/
-├── tests/
-│   └── auth.test.js
-│   └── caxinha.test.js
-│   └── pointSend.test.js
-├── utils/
-│   └──authHelper.js
-│   └── CriarUsuario.test.js
-|   └── geraCpf.test.js
-|   └── geraEmail.test.js
-├──.env
-├──jest.config.js
-├── package.json
-├── README.md
+
+- **tests/**
+  - `auth.test.js` — Testes de autenticação
+  - `caxinha.test.js` — Testes da funcionalidade "caxinha"
+  - `pointSend.test.js` — Testes de envio de pontos
+
+- **utils/**
+  - `authHelper.js` — Função auxiliar para autenticação
+  - `CriarUsuario.test.js` — Teste para criação de usuário
+  - `geraCpf.test.js` — Teste para geração de CPF válido
+  - `geraEmail.test.js` — Teste para geração de e-mail aleatório
+
+- `.env` — Arquivo de variáveis de ambiente
+- `jest.config.js` — Configuração do Jest
+- `package.json` — Dependências e scripts do projeto
+- `README.md` — Documentação do projeto
 
 
 
