@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1754320874562" clover="3.2.0">
+  <project timestamp="1754320874562" name="All files">
+    <metrics statements="39" coveredstatements="32" conditionals="18" coveredconditionals="7" methods="10" coveredmethods="9" elements="67" coveredelements="48" complexity="0" loc="39" ncloc="39" packages="1" files="4" classes="4"/>
+    <file name="authHelper.js" path="C:\Users\BRPC017160\Desktop\Porjeto API\Bank Test\utils\authHelper.js">
+      <metrics statements="10" coveredstatements="5" conditionals="11" coveredconditionals="3" methods="1" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="6" count="1" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="19" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="20" count="0" type="cond" truecount="0" falsecount="3"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+    </file>
+    <file name="criaUsuario.js" path="C:\Users\BRPC017160\Desktop\Porjeto API\Bank Test\utils\criaUsuario.js">
+      <metrics statements="15" coveredstatements="13" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="5" count="7" type="stmt"/>
+      <line num="9" count="7" type="stmt"/>
+      <line num="13" count="7" type="stmt"/>
+      <line num="17" count="7" type="stmt"/>
+      <line num="19" count="7" type="stmt"/>
+      <line num="27" count="7" type="stmt"/>
+      <line num="31" count="7" type="cond" truecount="1" falsecount="1"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="35" count="7" type="stmt"/>
+      <line num="37" count="7" type="cond" truecount="1" falsecount="1"/>
+      <line num="38" count="0" type="stmt"/>
+      <line num="42" count="7" type="stmt"/>
+      <line num="49" count="3" type="stmt"/>
+    </file>
+    <file name="geraCpf.js" path="C:\Users\BRPC017160\Desktop\Porjeto API\Bank Test\utils\geraCpf.js">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <line num="2" count="18" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="38" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="8" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+    </file>
+    <file name="gerarEmail.js" path="C:\Users\BRPC017160\Desktop\Porjeto API\Bank Test\utils\gerarEmail.js">
+      <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
