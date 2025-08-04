@@ -1,5 +1,4 @@
-# Projeto de Testes Automatizados API com Node.js
-
+# Projeto de Testes Automatizados API com framework Jest
 ---
 
 ## ⚙️ Configuração
@@ -8,31 +7,38 @@
 Instale o Node.js (versão 18 ou superior recomendada) 
 
 Verifique com:
+
 node -v
+
 npm -v
 
-* Download do Node.js
-
-* Recomenda-se usar a versão 18 ou superior
-
-Verifique com:
-
-bash node -v ou  npm -v
-
-- Instale as dependências do projeto
-
-npm install --save-dev husky : Ferramenta que permite configurar Git Hooks de forma simples, dentro de projetos JavaScript/TypeScript (Node.js). Git Hooks são scripts que o Git executa automaticamente em momentos específicos, como antes de um commit ou push.
-
-Definido os commit de novas feature, bug, ajustes etc..
-
-npx husky init: Cria pasta 
-
+npm install --save-dev jest
 
 npm install "dotenv" : Biblioteca que carrega variáveis de ambiente de um arquivo
 
 npm install supertest : Simula requisições HTTP para testar endpoints da API.
 
-npm install jest-html-reporter :  Relatório dos testes
+npm install jest-html-reporter : Relatório dos testes
+
+
+
+📁 Estrutura
+project/
+├── tests/
+│   └── auth.test.js
+│   └── caxinha.test.js
+│   └── pointSend.test.js
+├── utils/
+│   └──authHelper.js
+│   └── CriarUsuario.test.js
+|   └── geraCpf.test.js
+|   └── geraEmail.test.js
+├──.env
+├──jest.config.js
+├── package.json
+├── README.md
+
+
 
 🛠️ Funções Desenvolvidas
 
